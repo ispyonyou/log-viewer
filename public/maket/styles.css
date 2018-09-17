@@ -26,6 +26,10 @@
   list-style: none;	
 }
 
+.filterText {
+  border: 1px dashed darkred;
+}
+
 .message_row_ul:after {
   content: " ";
   display: table;
@@ -34,12 +38,15 @@
 
 .message_row {
   border: 1px dashed #999;
+  padding: 5px;
 }
 
 .message_row_ul li {
   float: left;
   list-style: none;
-  margin-left: 10px	
+  margin-left: 10px;
+  font-size: 0.7em;
+  background-color: aqua 
 }
 
 .message_row_ul {
