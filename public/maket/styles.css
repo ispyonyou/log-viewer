@@ -1,0 +1,53 @@
+.filters:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.filters {
+	zoom: 1;	
+}
+
+.filters {  
+  border: 1px dashed red;
+  width: 100%;
+}
+
+.filters ul {
+  margin: 0;	
+  float: left;
+  overflow: auto;
+  max-height: 100px;
+  width: 100px;
+  border: 1px dashed #999;
+}
+
+.filters ul li{
+  list-style: none;	
+}
+
+.message_row_ul:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.message_row {
+  border: 1px dashed #999;
+}
+
+.message_row_ul li {
+  float: left;
+  list-style: none;
+  margin-left: 10px	
+}
+
+.message_row_ul {
+  margin: 0
+}
+
+.message_row p{
+  margin: 0;	
+  padding: 0;
+  word-break: break-word;
+}

@@ -1,3 +1,5 @@
+import {CHANGE_SELECTED_LEVELS} from '../constants'
+
 const defaultLogLevels = [
   {
     name: "DEBUG"
@@ -8,7 +10,7 @@ const defaultLogLevels = [
 ]
 
 export default (logLevels = defaultLogLevels, action) => {
-  const {type} = action
+  const {type, payload} = action
   switch (type) {
     default: return logLevels
   }

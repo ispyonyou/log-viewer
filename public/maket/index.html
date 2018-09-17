@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Большая книга CSS -- Глава 2</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+  </head>
+  <body>
+    <h1></h1>
+    <div class="filters">
+      <ul>
+        <li>asd</li>
+        <li>dfg</li>
+        <li><input type="checkbox"/> e sdhfgsd hfg sdfhg sdhf sdhf gsdrt</li>
+        <li><div>asd</div><div>sdf</div></li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+      </ul>
+
+      <ul>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+      </ul>
+
+      <ul class="last_filter">
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>li</li>
+        <li>l</li>
+        <li>li</li>
+        <li>dfg</li>
+        <li>ert</li>
+        <li>asd</li>
+        <li>dfg</li>
+        <li>ert</li>
+      </ul>
+      
+    </div>
+
+    <div class="messages">
+      <div class="message_row">
+        <ul class="message_row_ul">
+          <li class="log_level">DEBUG</li>
+          <li class="logger">TwQuery</li>
+        </ul>
+        <p class="log_message">SELECT CODE,NAME,REPORT_TYPE, SUB_TYPE,USER_GROUP_CODE,TASK_CODE,IS_DEFAULT ,IS_SHIFT_ONLY,IS_FOR_ALL_USERS,IS_LOAD_BY_CODES,USER_CODE
+            FROM SAVE_SELECTIONS 
+            WHERE IS_DEFAULT=1 AND REPORT_TYPE=13001 AND SUB_TYPE = '120'
+            ORDER BY IS_FOR_ALL_USERS DESC,NAME ASC</p>
+      </div>
+      <div class="message_row">
+        <ul class="message_row_ul">
+          <li class="log_level">TRACE</li>
+          <li class="logger">Обеспеченность</li>
+        </ul>
+          <p class="log_message">Загрузка отчета сравнения обеспеченностей - 1</p>
+      </div>
+    </div>
+
+  </body>
+</html>
